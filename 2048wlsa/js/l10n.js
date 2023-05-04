@@ -230,7 +230,7 @@ if (typeof document !== undef_type) {
 }());
 
 function Localize(key) {
-    var string = '%' + key;
+    var string = key;
 	return string.toLocaleString();
 };
 
