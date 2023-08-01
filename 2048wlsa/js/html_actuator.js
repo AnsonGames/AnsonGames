@@ -122,13 +122,13 @@ HTMLActuator.prototype.updateScore = function (score, points) {
 
   // this.scoreContainer.textContent = this.score;
 	this.scorePoints.textContent = this.points;
-  this.scoreContainer.textContent = Localize( "p" + this.score );
+  this.scoreContainer.textContent = Localize( this.score );
 
   if (difference > 0) {
     var addition = document.createElement("div");
     addition.classList.add("score-addition");
     // addition.textContent = "+" + difference;
-    addition.textContent = Localize( "p" + this.score );
+    addition.textContent = Localize( this.score );
 
     this.scoreContainer.appendChild(addition);
   }
