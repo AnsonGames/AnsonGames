@@ -4,7 +4,7 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: #fff;
-  color: #19827c;
+  color: #4a75b9;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
   }
@@ -66,7 +66,7 @@ h1.title {
   overflow: hidden;
   position: relative;
   display: inline-block;
-  background: #19827c;
+  background: #4a75b9;
   padding: 15px 0px;
   font-size: 19px;
   text-transform: capitalize;
@@ -91,7 +91,7 @@ h1.title {
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #a0e2de;
+    color: #93bdff;
     }
   .score-container .score-addition, .best-container .score-addition,
 	.score-points .score-addition, .best-points .score-addition {
@@ -133,7 +133,7 @@ p {
   line-height: 1.65; }
 
 a {
-  color: #a0e2de;
+  color: #93bdff;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer;
@@ -182,7 +182,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #19827c;
+  background: #4a75b9;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -535,11 +535,11 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #19827c;
+  background: #4a75b9;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
-  color: #a0e2de;
+  color: #93bdff;
   height: 40px;
   line-height: 42px;
   display: block;
@@ -790,7 +790,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #19827c;
+  background: #597fbb;
   border-radius: 4px;
   width: 73px;
   height: 73px;
